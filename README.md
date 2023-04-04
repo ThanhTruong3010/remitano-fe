@@ -1,7 +1,3 @@
-## Description
-
-UI
-
 ## Codebase Structure
 
 ```bash

@@ -1,0 +1,25 @@
+.share-component {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid blanchedalmond
+}
+
+.share-component input {
+  color: black;
+  background: #fff;
+  border: 2px solid #ddd;
+  padding: 5px 10px;
+  width: 60%;
+  outline: none;
+}
+
+.share-component button {
+  padding: 5px 30px;
+  cursor: pointer;
+}

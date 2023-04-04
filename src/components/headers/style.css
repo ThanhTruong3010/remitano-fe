@@ -1,0 +1,41 @@
+.header {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.header > h2 {
+  color: black;
+  font-size: 2.5em;
+  font-weight: 800;
+}
+
+.header > .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75em;
+}
+
+.header > .form .form-control {
+  padding: 0.25em;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  color: black;
+  outline: none;
+  padding: 5px 10px;
+}
+
+.header > .form .form-button {
+  cursor: pointer;
+  padding: 0.25em;
+  background: blue;
+  color: white;
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 0.5em 1em;
+  border: none;
+}
