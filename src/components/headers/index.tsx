@@ -106,7 +106,7 @@ export const Header = () => {
 
   return (
     <div className="header">
-      <h2>Funny Movies</h2>
+      <h2 onClick={() => navigate("/")}>Funny Movies</h2>
       {renderForm()}
     </div>
   );
